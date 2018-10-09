@@ -12,13 +12,18 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var totalPayLabel: UILabel!
     @IBOutlet weak var commissionTextField: UITextField!
-    override func viewDidLoad() {
+    let basepay:Int = 500
+    override func viewDidLoad(){
         super.viewDidLoad()
         
     }
 
-    @IBAction func calculateOnTapped(_ sender: Any) {
+    @IBAction func calculateOnTapped(_ sender: Any)
+     {
+        
     }
+    func getInput(){
     
-}
+   }
 
+}
